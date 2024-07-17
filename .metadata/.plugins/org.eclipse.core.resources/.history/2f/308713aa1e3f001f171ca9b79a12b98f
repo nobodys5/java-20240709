@@ -1,0 +1,15 @@
+package chapter1;
+
+public class ControllSwitch {
+
+	public static void main(String[] args) {
+
+		// Switch 문 : 특정 변수 또는 표현식에 따라 실행할 코드 블럭의 범위를 결정하는 것
+		switch (변수-일반표현식) {
+		case 값1 :
+			변수-일반표현식이 값1과 같을때 시작할 코드 블럭 위치
+		
+		}
+	}
+
+}

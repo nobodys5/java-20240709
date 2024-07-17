@@ -1,0 +1,16 @@
+package chapter1;
+
+public class ControllEtc {
+
+	public static void main(String[] args) {
+
+		// continue : 반복문에서 continue를 만나면 조건 검사로 넘어감
+		// break : 반복문에서 break를 만나면 반복문을 종료함
+		
+		for (int count = 1; count <= 100; count++) {
+			System.out.println(count);
+		}
+		
+	}
+
+}
