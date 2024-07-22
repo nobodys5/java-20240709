@@ -29,7 +29,7 @@ public class Practice1 {
 				newNumbers[index] = numbers[index];// numbers 인덱스요소가 추가될때마다 newnumbers 인덱스요소에 담긴다
 			}
 			newNumbers[newNumbers.length - 1] = inputNumber;// inputnumber 1 입력받으면 배열 마지막 요소에 값을 받기 위해 newnumber 배열마지막 요소를 -1 시켜준다 
-			// newNumbers = {2, 3}
+			// newNumbers = {2, 3} 3이 inputnumber 입력한 값이 들어가는 배열 마지막 요소 값임
 			numbers = newNumbers; // 출력하기위해 numbers 에 newnumbers 변수르 담아준다
 		}
 //		for (int number : numbers)

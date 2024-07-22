@@ -129,13 +129,14 @@ public class Package2 {
 		human2.put("age", 20);
 		System.out.println(human2);
 		
+		// object 를 데이터 타입으로 지정했을때 발생하는 문제점
 		// 1. 문제점 : 사용 혹은 추가 작업에 실수 가능성 오타를 입력하여 필요한 값을 못 읽어올수도있다.
-//		human2.get(naem);
+//		human2.get(naem); : 이렇게되면 모든타입을 데이터로 받을 수 있기 때문에 오류를 감지하지못해서 개발자 본인이 오류가있는지 확인하기 어렵다
 		
 		// 2. 문제점 : 타입의 안정성의 문제
-		int age = (int) human2.get("age");
+		int age = (int)human2.get("age"); // int 정수에 human 문자열값을 담으려면 데이터타입이 맞지않아 human을 int로 형변환 시켜줘야함 그렇지않으면 오류가 발생
 		// 3. 문제점 : 데이터 무결성의 문제
-		
+		System.out.println(age);
 		
 		
 	}
