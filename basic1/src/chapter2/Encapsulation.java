@@ -53,7 +53,7 @@ public class Encapsulation {
 		System.out.println(kjd.getBirth());
 		System.out.println(kjd.getBody());
 		
-		kjd.setBody(176);
+		kjd.setBody(177);
 		System.out.println(kjd.getBody());
 	}
 

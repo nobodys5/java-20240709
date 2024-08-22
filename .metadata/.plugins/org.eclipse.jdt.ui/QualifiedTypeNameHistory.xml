@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.security.KeyStore.Entry.Attribute"/>
     <fullyQualifiedTypeName name="chapter2.ExampleClass1"/>
     <fullyQualifiedTypeName name="chapter2.Exampleclass2"/>
     <fullyQualifiedTypeName name="chapter2.MyMath"/>
@@ -26,8 +25,6 @@
     <fullyQualifiedTypeName name="chapter2.FootballPlay"/>
     <fullyQualifiedTypeName name="chapter2.Human"/>
     <fullyQualifiedTypeName name="chapter2.FootballPlayer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="chapter3.SubClass"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="chapter3.MyClass"/>
+    <fullyQualifiedTypeName name="java.awt.Menu"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

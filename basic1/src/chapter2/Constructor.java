@@ -58,13 +58,14 @@ public class Constructor {
 		Human1 human1 = new Human1();
 		System.out.println(human1.name);
 		
-		Human1 human3 = new Human1("홍길동",20,"남");
+		Human1 human3 = new Human1("홍길동",20,"남"); 
 		System.out.println(human3.name);
 		
 		Human1 human4 = new Human1();
-		human4.name = "서지훈";
+		human4.name = "서지훈"; // 외부 의존성값 주입방법
 		human4.age = 32;
 		human4.gender = "남";
+		System.out.println(human4.name);
 		
 		// 얕은 복사 : 변수에 기억된 주소를 복사하는 행위
 		Human1 human5 = human3;
