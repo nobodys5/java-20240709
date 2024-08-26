@@ -71,7 +71,8 @@ public class RequestDataController {
     // @RequestBody() :
     // - POST, PUT, PATCH 처럼 Request Body로 데이터를 전송하는 메서드에서 데이터를 읽기 위한 방법
     @PostMapping("/request-body")
-    public String requestBody(//@RequestBody String requestBody
+    public String requestBody(
+        //@RequestBody String requestBody
         @RequestBody SampleDto requestBody
     ) {
         

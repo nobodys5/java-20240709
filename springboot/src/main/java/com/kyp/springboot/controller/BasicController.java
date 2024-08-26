@@ -1,4 +1,4 @@
- package com.kyp.springboot.controller;
+package com.kyp.springboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
