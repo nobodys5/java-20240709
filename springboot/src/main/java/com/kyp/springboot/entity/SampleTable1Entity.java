@@ -27,7 +27,7 @@ import lombok.Setter;
 // - 해당 Entity 클래스를 RDBMS의 테이블과 매핑시키는 어노테이션
 // - 만약 java의 class 명과 RDMBS의 table 명이 동일하다면 유추하여 매핑
 // - 이름이 서로 다르면 name 속성으로 매핑할 table명을 지정할 수 있음
-@Table(name = "sample_talbe_1")
+@Table(name = "sample_table_1")
 // sample_table1_entity
 public class SampleTable1Entity {
 
@@ -41,7 +41,7 @@ public class SampleTable1Entity {
     // - GenarationType.IDENTITY : auto_increment 전략 선택
     // - GenarationType.SEQUENCE : 데이터베이스의 sequence 생성 전략 선택
     // - GenarationType.TABLE : 키 생성 목적의 테이블을 이용하여 생성하는 전략 선택
-    @Column(name = "sample_id", nullable = false, unique = true)
+    @Column(name = "sample_id", nullable = false, unique = true, length = 10)
     private String sampleId;
 
     // @Column:
